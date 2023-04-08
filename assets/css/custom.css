@@ -1,0 +1,58 @@
+html {
+	font-family: 'Space Grotesk' !important;
+	font-size: 16px !important;
+	color: #bbb;
+	background-color: #0c2233 !important;
+}
+
+p {
+	font-family: 'Space Grotesk' !important;
+	font-size: 16px !important;
+}
+
+a {
+	text-decoration: none;
+	color: #79b8ff;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+::selection {
+	background: grey;
+	color: #bbb;
+}
+
+header {
+	border-bottom: 2px solid #404040 !important;
+}
+
+header > nav > a {
+	color: #a6a6a6 !important;
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+
+header > div > a {
+	color: #a6a6a6 !important;
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+
+h1 {
+	font-weight: 400;
+	margin-top: 0;
+}
+
+.title h1 {
+	font-size: 2.625rem;
+	letter-spacing: -1px;
+	line-height: 1.15;
+	margin-bottom: 15px;
+}
+
+.content {
+	padding-right: 30px;
+	padding-left: 30px;
+}

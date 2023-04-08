@@ -1,0 +1,33 @@
+baseURL = "https://athulcyriac.in/"
+languageCode = "en-us"
+title = "charles onunze"
+theme = "archie"
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+enableEmoji = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+customcss = ["css/custom.css"]
+useCDN = true
+favicon = "https://github.com/charlesonunze.png"
+og_image = "https://file.coffee/u/zrbyj5l-Ek.png"
+sitename = "charlesonunze's personal website"
+description = "a collection of my thoughts"
+
+[[menu.main]]
+name = "blog"
+url = "/blog"
+weight = 1
+
+####
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/charlesonunze"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/charlesonunze"
